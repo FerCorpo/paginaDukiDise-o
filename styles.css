@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    background-image: url(https://dynamicmedia.livenationinternational.com/d/w/v/e0e5e6b9-3c06-4f5f-914c-b73d4b2166bc.jpg);
+    background-size: cover;
+
+}
+
+.cabecera {
+    margin: 0;
+    margin-bottom: 5px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.navbar{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a{
+    color: red;
+}
+
+.discografia{
+    margin-left: 20px;
+}
+
+.proximosConciertos{
+    margin-right: 20px;
+}
+
+.historia{
+    margin-left: 50px;
+}
+
+
+.navbar a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.ameri img{
+    display: inline-block;
+    max-height: 200px;
+    display: block;
+    margin: 20px auto;
+}
+.enlaces {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 350px;
+    gap: 20px;
+}
+
+.cuerpo-ameri h1{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+.cuerpo-ameri p{
+    
+    text-align: center;
+    color: white;
+}
+
+/*apartado historia*/
+.cuerpo-historia h1{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+.cuerpo-historia p{
+    text-align: right;
+    color: white;
+}
+
+/* Contenedor principal con dos columnas */
+.contenedor {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 80px; 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Columna izquierda con imágenes */
+.columna-izquierda {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.columna-izquierda img {
+    width: 100%; 
+    max-width: 300px; 
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); 
+}
+
+/* Columna derecha con párrafos alineados */
+.columna-derecha {
+    flex: 1; 
+    padding: 5px;
+}
+
+/*apartado proximos conciertos*/
+.cuerpo-conciertos a,h1{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+.cuerpo-conciertos p{
+    margin-top: 50px;
+}
+
+/*imagen logo*/
+.logo img {
+    width: 100px; 
+    height: auto; 
+    margin: 10px; 
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
